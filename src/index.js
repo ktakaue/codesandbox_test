@@ -20,4 +20,15 @@
 
 const val3 = "const変数";
 console.log(val3);
-// val3 = "const変数を上書き"
+const val4 = {
+  name: "じゃけぇ",
+  age: 28
+};
+val4.name = "jak";
+val4.address = "Hiroshima";
+console.log(val4);
+
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
+console.log(val5);
